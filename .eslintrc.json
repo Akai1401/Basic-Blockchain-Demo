@@ -1,0 +1,23 @@
+{
+  "extends": ["airbnb-base"], // Configured Rules
+  "plugins": [], // extends
+  "rules": {
+    // Disable some stupid airBnB rules
+    "import/extensions": "off",
+    "import/prefer-default-export": "off",
+    "linebreak-style": "off",
+    "prefer-destructuring": "off",
+    "operator-linebreak": "off",
+    "no-unused-vars": "off",
+    "import/no-extraneous-dependencies": "off",
+    "camelcase": "off",
+    "no-console": "off",
+    "prefer-template": "off",
+    "max-classes-per-file": "off",
+    "no-plusplus": "off",
+    "no-empty": "off",
+    "no-continue": "off",
+    "object-curly-newline": "off",
+    "max-len": "off"
+  }
+}
