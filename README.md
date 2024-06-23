@@ -1,6 +1,6 @@
 # Basic Blockchain Demo
 
-Super basic demo about how blockchain work by Javascript
+A super basic demo of how blockchain works using JavaScript
 
 ![Demo Image](./demo.png 'Demo Image')
 
