@@ -1,3 +1,3 @@
-const web3Demo = require('./App/transaction-demo/implement.js');
+const web3Demo = require('./App/basic/implement.js');
 
 web3Demo();

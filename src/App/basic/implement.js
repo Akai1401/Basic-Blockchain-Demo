@@ -12,12 +12,12 @@ function implementBasic() {
   console.log('myChain after add block', myChain.chain);
 
   // Hacking
-  myChain.chain[1].data.to = '0x999'; // Modify data
-  console.log('myChain after hack data', myChain.chain);
-  console.log('myChain isValid', myChain.isValid());
-  myChain.chain[1].hash = myChain.chain[1].calculateHash(); // Modify hash
-  console.log('myChain after hack hash', myChain.chain);
-  console.log('myChain isValid', myChain.isValid());
+  // myChain.chain[1].data.to = '0x999'; // Modify data
+  // console.log('myChain after hack data', myChain.chain);
+  // console.log('myChain isValid', myChain.isValid());
+  // myChain.chain[1].hash = myChain.chain[1].calculateHash(); // Modify hash
+  // console.log('myChain after hack hash', myChain.chain);
+  // console.log('myChain isValid', myChain.isValid());
 }
 
 module.exports = implementBasic;

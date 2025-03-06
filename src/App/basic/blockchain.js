@@ -44,9 +44,9 @@ class Blockchain {
     for (let i = 1; i < this.chain.length; i++) {
       const currentBlock = this.chain[i];
       const prevBlock = this.chain[i - 1];
-      // hash đã lưu phải bằng hash mới được tính toán lại
+      // hash saved must be equal to hash calculated
       if (currentBlock.hash !== currentBlock.calculateHash()) return false;
-      // prev hash của block hiện tại phải bằng hash của block trước
+      // prev hash of current block must be equal to hash of previous block
       if (currentBlock.prevHash !== prevBlock.hash) return false;
     }
     return true;
